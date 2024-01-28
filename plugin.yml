@@ -1,0 +1,17 @@
+name: PlayerJoinQuitMessage
+main: yutarou\Main
+version: 1.3.0
+api:
+  - 3.0.0
+  - 4.0.0
+load: POSTWORLD
+author: yutarou1241477
+description: プレイヤーが参加した時にメッセージをサーバーに送信します
+commands:
+ msg_reload:
+  description: "[PJoinQuitMessage]Configをリロードします"
+  usage: "/msg_reload"
+  permission: message.command
+permissions:
+ message.command:
+  default: op
